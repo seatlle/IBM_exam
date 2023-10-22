@@ -1,5 +1,5 @@
 # this script calculates and produces a set of video files with a maximum duration of 30 seconds extracted from an original video named new.mp4
-# Author: Seatlle (seatlle company)
+# Author: KAMDEM KAMGAING (seatlle)
 #!/bin/bash
 if [ ! -e whatsapp ]
 then
