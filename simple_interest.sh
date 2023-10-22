@@ -15,7 +15,7 @@ do
     #let "min_e = min + (sec + 30)/60"
     #echo -e "valeur des minutes d'extremit $min_e \n \n"
     execute=`ffmpeg -i new.mp4 -ss 00:$min:$sec.00 -t 00:00:30 whatsapp/w$j.mp4`
-    #exec=`mv whatsapp/whatsapp.mp4 whatsapp/w$j.mp4 ancien code`
+    #exec=`mv whatsapp/whatsapp.mp4 whatsapp/w$j.mp4 pull request 2`
     let "j +=1 "
 done
 
